@@ -18,7 +18,7 @@ https://git-scm.com/
 - Mac (brew): brew install git
  ## Criar conta no GitHub
  ## Clonar o projeto
- git clone https://github.com/cavalcantemmarcelo/curso-frontend.git
+ git clone https://github.com/camposlluan/front-end.git
  ## Commits
  Informação de alteração
  - após testado todo seu código
