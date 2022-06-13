@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Layouts</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <!-- Resets -->
+    <link rel="stylesheet" type="text/css" href="./css/reset.css"> 
+
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+
+    <!-- Estilos de Paginas -->
+    <link rel="stylesheet" type="text/css" href="./css/reset.css"> 
+
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+
+    <link rel="stylesheet" type="text/css" href="./css/graficos.css">
+</head>
+<body>
+   <header>Front-end</header>
+   <nav>
+   <ul class="navegacao">
+                <h3>Aulas</h3>
+            <li><a href="01-introducao.html">Introdução</a></li>
+            <li><a href="02-listas-e-links.html">Listas e Links</a></li>
+            <li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+            <li><a href="04-tabelas.html">Tabelas</a></li>
+            <li><a href="05-layouts.html">Layouts</a></li>
+            <li><a href="06-formularios.html">Formularios</a></li>
+            <li><a href="07-fundamentos-css.html">Fundamentos css</a></li>
+            <li><a href="08-layouts-fluidos.html">Layouts Fluidos</a></li>
+            <li><a href="09-elementos-graficos.html" target="meu_iframe">Elementos Graficos</a></li>
+            <li><a href="10-layouts-web.html">Layouts web</a></li>
+        </ul>
+    </nav>
+    <article>
+        
+        <div class="coluna">
+
+            <p>Layouts em Colunas</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DzleXCSm0KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </div>
+        <div class="coluna">
+        <div id="grafico-01">
+            <img class="filtro" src="./images/coffee-cup.jpg" alt="Café">
+        </div>
+        
+    </div>
+    <div class="coluna coluna-3">
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        
+    </div>
+    
+    <div class="coluna"> 
+        
+        <!-- Cria uma moldura para carregar uma pagina dentro dentro de outra -->
+        <iframe src="./02-listas-e-links.html" width="100%" height="400px" name="meu_iframe"></iframe>
+        </div>
+        <div class="coluna coluna-100w"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7636602612406!2d-46.65502414934792!3d-23.54100138461795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57bc513b0395%3A0xf8caecd88e8edbad!2sEBAC!5e0!3m2!1spt-BR!2sbr!4v1654136954610!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+
+
+</article>
+    <section>
+        <footer>Desenvolvido por Luan Campos</footer>
+    </section>
+</body>
+</html>

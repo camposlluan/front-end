@@ -1,0 +1,40 @@
+
+#navbar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    position: -webkit- sticky; /* Safari */
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    background: solid;
+    font-size: 15px;
+
+}
+li {
+    float: left;
+    display: inline;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+#padding{
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+
+    height: 1500px;
+}
+li a:hover{
+    background-color: white;
+}
+.active {
+    background-color: darkblue;
+}

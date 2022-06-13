@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.2;
+}
+body {
+    background-color: #fff;
+}
+h1 {
+    background-color: #333;
+    padding: 30px;
+    margin: 0%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+li {
+    text-align: center;
+    padding: 30px;
+}
+a {
+    border-radius: 25%;
+    color: #000;
+    background-color: teal;
+    padding: 20px;
+}
+h1:hover {
+    color: gold;
+}
+p:hover {
+    color: #000;
+}
+li a:hover {
+background-color: gray;
+color: #fff;
+}

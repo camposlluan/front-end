@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="widht=device=width, initial-scale=1">
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				font-family: Arial, Halvetica, sans-serif;
+			}
+			/* Style the header */
+			header {
+			 background-color: #666;
+			 padding: 30px;
+			 text-align: center;
+			 font-size: 35px;
+			 color: white;
+			}
+			/*Create two columns/boxes that next to each to other */
+			nav {
+				float: left;
+				width: 30%;
+
+				background: #ccc;
+				padding: 20px;
+			}
+			/* Style the list inside the menu*/
+			nav ul {
+				list-style-type: none;
+				padding: 0;
+			}
+			article {
+				float: left;
+				padding: 20px;
+				width: 70%;
+				background-color: #f1f1f1;
+			}
+			/* Clear floats after the columns */
+			section::after {
+				background: #ccc;
+				content: "";
+				display: table;
+				clear: both;
+			}
+			/* Style the footer */
+			footer {
+				background-color: #777;
+				padding: 10px;
+				text-align: center;
+				color:white;
+			}
+			/* Responsive layout - makes two columns/boxes stack on top of each other instead of next to each, on small screen */
+			@media (max-width: 600px) {
+			   nav, article {
+			   	width: 100%;
+			   	height: auto;
+			} 
+		}
+			</style>
+	</head>
+	<body> 
+		<header>
+			<h2>Curso front-end - HTML</h2>
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="./05-layouts.html">home</a></li>
+					<li><a href="#Sobre">sobre</a></li>
+					<li><a href="./06-formularios.html">contato</a></li>
+				</ul>
+				<ul>
+					<li><a href="./modulo-04-exercicio-homepage.html">Homepage</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h1>Titulo Artigo</h1>
+				
+				<p>Lorem ipsum curae tempor eros mattis interdum aptent, rutrum et euismod nostra pharetra ipsum sollicitudin vulputate, aenean tempus aliquam morbi vivamus convallis. dui ante conubia volutpat donec etiam inceptos semper, cursus euismod potenti elementum malesuada hac fames, convallis netus consequat nullam augue convallis. maecenas turpis mi nibh iaculis sem diam, aenean platea nostra morbi taciti mi quis, neque nulla praesent leo aliquet. nullam in congue dolor placerat sociosqu, tristique interdum massa. viverra curae mollis consequat rhoncus sem pellentesque arcu, pulvinar quis blandit porta phasellus cras, litora sem feugiat donec aenean praesent. Mattis neque sapien ut congue platea per accumsan nostra quisque non, aptent ultricies posuere gravida dictum eleifend posuere nulla congue, potenti at gravida nunc consequat habitant semper nostra volutpat. felis pharetra aliquam duis himenaeos auctor vel, sapien habitant nibh curabitur nostra bibendum, neque lacus nisi lectus gravida. non mi eu nam tristique cubilia et dictum nunc, quisque mattis duis nullam mi feugiat at, nulla etiam lacus ligula lorem elementum odio. ut ipsum auctor elementum tincidunt volutpat lectus nisi, aliquam fringilla ac non fringilla metus fermentum vulputate, sapien ante nulla ante tellus laoreet.</p>
+
+				<p>
+	Posuere nam suspendisse potenti sociosqu ut sodales ad tempor lacus rhoncus, senectus habitasse adipiscing ligula suscipit lorem litora duis. vivamus at iaculis hac sodales mattis nibh ut mi lectus quisque primis, hac laoreet id aenean porttitor lacinia vivamus porttitor phasellus scelerisque posuere, congue fringilla nibh aliquam etiam tortor etiam sapien donec luctus. mattis morbi interdum vitae scelerisque condimentum fusce in, etiam nunc cras class nec malesuada ornare, sapien luctus curabitur in nulla hac. a volutpat nulla nibh eget etiam fames gravida eros quis odio vitae, nisl sollicitudin nibh ultrices praesent dictumst tempus augue praesent.</p> 
+
+			</article>
+		</section>
+		<footer><p style="color:white;"><ins>Desenvolvido por Luan</ins></p></footer>
+	</body>
+</html>

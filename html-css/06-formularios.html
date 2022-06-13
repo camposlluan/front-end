@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="widht=device=width, initial-scale=1">
+		<link rel="stylesheet" type="text/Css" href="./Css/style.css">
+	</head>
+	<body> 
+		<header>
+			<h2>Curso front-end - HTML</h2>
+		</header>
+
+		<section>
+			<nav>
+				<ul class="navegacao">
+					<li><a href="05-layouts.html">Home</a></li>
+					<li><a href="#Sobre">Sobre</a></li>
+					<li><a href="#Contato">Contato</a></li>
+				</ul>
+				<ul class="navegacao ">
+				<li><a href="./modulo-04-exercicio-homepage.html">Homepage</a></li>
+			</ul>
+			</nav>
+			<article>
+				<h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post" class="navegacao">
+
+					<div>
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+				</div>
+
+				<div>
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+				</div>
+
+				<div>
+					<label for="mensagem">Mensagem</label>
+					<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+				</div>
+
+				<div>
+
+				 <p>
+					 <label>Qual linguagens você prefere</label>
+					 <input type="radio" name="linguagens" value="html"> HTML
+					 <input type="radio" name="linguagens" value="css"> CSS
+					 <input type="radio" name="linguagens" value="javascript"> JavaScript
+				 </p>
+				</div>
+
+				<div>
+				 <p>
+					 <label>Quais linguagens você sabe?</label>
+					 <input type="checkbox" name="linguagens" value="html"> HTML
+					 <input type="checkbox" name="linguagens" value="css"> CSS
+					 <input type="checkbox" name="linguagens" value="javascript"> JavaScript
+				 </p>
+
+				</div>
+
+				<div>
+					<label>Qual sua cor favorita?</label>
+					<select>
+						<option value="azul" selected="Azul">Azul</option>
+						<option value="verde">Verde</option>
+						<option value="vermelho">Vermelho</option>
+					</select>
+				</div>
+
+				<div>
+					<input type="submit">
+				</div>
+
+				</form>
+
+			</article>
+		</section>
+		<footer>
+			<p>Desenvolvido por Luan</p></footer>
+	</body>
+</html>

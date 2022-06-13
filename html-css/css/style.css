@@ -1,0 +1,168 @@
+/* Arquivo CSS geral com estilos dos elementos de todas as páginas */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 0;
+    font-size: 62.5%; /* Equivale a 10px*/
+}
+body {
+   background: url(../images/—Pngtree—pink\ transparent\ peach\ elements\ background_3091278.png) center top white;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+text-transform: capitalize;
+text-decoration: underline;
+}
+h1, h2, p, li, b {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #454545;
+}
+h3 {
+    font-size: 3em;
+}
+
+a {
+    color: #336;
+    text-decoration: none;
+}
+#primeiro-link a {
+    color: #66f;
+    /*color: #933;*/
+}
+ul {
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+
+ul li {
+    font-size: 0.8em; /*equivale a 16px*/
+}
+
+p {
+    font-size:1.6rem ; /*equivale a 16px*/
+}
+
+h2 {
+    font-size: 2rem; /*equivale a 20px*/
+    font-size: 20px;
+}
+.navegacao { 
+background-color: #ffffff }
+
+.navegacao li {
+    border-bottom: 1px solid #000000;
+    display: block;
+    padding: 1rem 1rem 1rem 1rem;
+    line-height: 1.4rem;
+
+}
+
+.navegacao a {
+    color: #66f;
+    display: block;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+form div {
+    background: #fff;
+    border-bottom: 1px solid #33f;
+    /*border-top: 1px solid #33f;
+    border-left: 1px solid #33f;
+    border-right: 1px solid #33f;*/
+    margin: 1rem;
+    padding: 2rem;
+}
+label {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #66f;
+}
+input {
+    padding: 1rem;
+}
+[type="text"],[type="email"], textarea, label {
+    width: 100%; 
+    display: block;
+}
+
+/* Style the header */
+header {
+    background-color:#edb5c3;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+/*Create two columns/boxes that next to each to other */
+nav {
+    float: left;
+    width: 30%;
+
+    padding: 20px;
+}
+/* Style the list inside the menu*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+}
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Style the footer */
+footer p{
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color:#333;
+    text-decoration: underline;
+
+}
+/* Responsive layout - makes two columns/boxes stack on top of each other instead of next to each, on small screen */
+@media (max-width: 600px) {
+  nav, article {
+     width: 100%;
+     height: auto;
+ }
+}
+
+/*
+    top / superior (cima)
+    bottom / inferior (baixo)
+    left(esquerda)
+    right(direita)
+*/
+
+form {
+    background: #eee;
+    padding: 10px;
+}
+
+form div {
+    position: static;
+    position: relative;
+    top: -10px;
+}
+
+label {
+    position:absolute ;
+    top: 0px;
+
+}
+/* .classe, #id body .*/
