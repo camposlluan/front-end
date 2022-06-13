@@ -26,7 +26,7 @@ https://git-scm.com/
  - git commit -m "mensagem"
  - git push (enviar alterações para o repositório GitHub)
  - git pull (puxar / trazer alterações do GitHub para sua máquina)
- > git add *
+ > git add * 
  > git commit -m "mensagem"
  > git push (enviar alterações para o repositório GitHub)
  > git pull (puxar / trazer alterações do GitHub para sua máquina)
