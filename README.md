@@ -56,4 +56,8 @@ Mescla de branchs no repositório
 git flow init
 git flow feature start {nome-da-feature}
 > git flow init
+<<<<<<< HEAD
 > git flow feature start {nome-da-feature}
+=======
+> git flow feature start {nome-da-feature}
+>>>>>>> 44ad1850f7efb12af5b4e853e124bb82cf055e38
