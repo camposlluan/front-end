@@ -32,7 +32,7 @@ https://git-scm.com/
  > git pull (puxar / trazer alterações do GitHub para sua máquina)
 ## GitFlow
 Fluxo do Git
-@@ -45,15 +45,15 @@ são ramificações / versões paralelas
+são ramificações / versões paralelas
 - DOD Definition of Done: critérios de aceite
 - versionamento 1.0.0
 
@@ -49,7 +49,7 @@ git merge main
 > git merge main 
 ### Pull Requests
 Mescla de branchs no repositório
-@@ -62,5 +62,5 @@ O respositório resolve os conflitos automaticamente
+O respositório resolve os conflitos automaticamente
 
 
 ### configura o GitFlow
