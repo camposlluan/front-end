@@ -14,7 +14,9 @@ body {
 .container {
     display: block;
     float: left;
+    max-width: 100%;
     padding: 20px;
+    max-width: 1198px;
     width: 100%;
 }
 header {
@@ -57,6 +59,10 @@ p {
     margin-bottom: 10px;
     line-height: 1.4;
     color: #454545;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 ol {
     margin-left: 30px;
@@ -122,26 +128,21 @@ footer small {
     font-size: 80%;
     display: block;
 }
-.cog-branding--minimal .cog-branding__powered, :root:root:root:root:root .cog-branding--minimal .cog-branding__powered {
-    visibility: hidden !important;
+.cognito {
+    height: 372px !important;
     overflow: hidden !important;
 }
-.cog-abuse, :root:root:root:root:root .cog-abuse {
-    visibility: hidden !important;
+#tenho-interesse {
+    background-color: #a2b8cc;
+    width: 100%;
 }
-.cog-i-cogicon__cog  {
-    visibility: hidden !important;
+#tenho-interesse form .cog-form__container {
+    background-color: #a2b8cc !important;
 }
-.cog-i-cogicon__c {
-    visibility: hidden !important;
-}
-html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal *  {
-    visibility: hidden !important;
-}
-html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
-    visibility: hidden !important;
-}
-.cog-branding__powered {
-    visibility: hidden !important;
+#tenho-interesse .cog-cognito--styled .cog-header h1, :root:root:root:root:root .cog-cognito--styled .cog-header  {
+    color: #385874 !important;
 }
 
+#tenho-interesse html .cog-label, :root:root:root:root:root .cog-label {
+    color: #385874 !important;
+}
