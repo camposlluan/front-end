@@ -41,14 +41,15 @@
 - var prestacao = 750;
 
 - a) branco == “branco”
-    false
+    ### false
 - b) branco == cinza
-    false
+    ### false
 - c) carro === branco
-    false
+   ### false
 - d) var cavalo = carro == “preto” ? “cinza” : “marron”;
-    marron
+   ### marron
 - e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada
 de 3.000? Demonstre a operação.
- 36 * 750 = 27.000
-- f) Somando as variáveis de cores é formada uma string de quantos caracteres? "pretocinzabrancopreto" 21 contando o zero tambem
+### 36 * 750 = 27.000
+- f) Somando as variáveis de cores é formada uma string de quantos caracteres? "pretocinzabrancopreto" 
+### 21 contando o zero tambem
