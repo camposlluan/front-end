@@ -1,0 +1,78 @@
+html {
+     font-family: 'Open Sans', sans-serif;;
+}
+header {
+    background-color:#811630 ;
+}
+li {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.color-h1 {
+    color: #f0f0f0;
+}
+.nav-link {
+    color: #f0f0f0;
+}
+
+.images {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+textarea,
+input {
+    margin-bottom: 1rem;
+}
+.start {
+    margin-top: 110px;
+}
+.img {
+    width: 71%;
+}
+
+section {
+    display: block;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.card {
+    display: block;
+    width: 30%;
+    float: left;
+    margin: 8px;
+}
+li:hover {
+    background-color: #5c2130 ;
+    color: #f0f0f0;
+}
+h1:hover {
+color: black;
+}
+@media (max-width: 420px) {
+    .produtos {
+        width: 55%;
+        margin: 8px;
+        float: left;
+        
+    }
+    .card {   
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 280px) {
+    .produtos {
+        width: 55%;
+        margin: 8px;
+        float: left;
+        
+    }
+    .card {   
+        width: 75%;
+
+    }
+}
