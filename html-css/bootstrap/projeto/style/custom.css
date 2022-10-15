@@ -1,18 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 html {
      font-family: 'Open Sans', sans-serif;;
 }
-header {
-    background-color:#811630 ;
-}
+
 li {
     font-size: 1.2rem;
     padding-bottom: 1rem;
 }
 .color-h1 {
-    color: #f0f0f0;
+    color: #3498db;
 }
-.nav-link {
-    color: #f0f0f0;
+.center {
+    margin-left: 35% !important;
+}
+
+.to-footer{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.icon-svg {
+    width: 105%;
+    height: 74%;
+    margin-top: 24%;
+    float: left;
+    filter:opacity(50%)
+}
+.insta-svg {
+    width: 105%;
+    height: 74%;
+    margin-top: 10%;
+    float: left;
+    filter:opacity(50%)
+}
+.radius {
+    width: 60px;
+    height: 60px;
+    margin-left: 8%;
+    border-radius: 50%;
+    background-color: #385898;
+    float: left;
+}
+.svg {
+    width: 70px;
+    height: 70px;
+    margin-left: 10%;
+    border-radius: 50%;
+    float: left;
+}
+
+img:active{
+    color: #3498db;
+}
+
+.containerr {
+    text-align: center;
+}
+.btnn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn3,.btn4{
+  color: #fff;
+}
+
+.btn3:hover,.btn4:hover{
+  color: #3498db;
+}
+.btnn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
+a {
+    text-decoration: none;
+
 }
 
 .images {
@@ -35,7 +129,9 @@ input {
     color: #f0f0f0;
     text-decoration: none;
 }
-
+#contato {
+    background-color: #3498db;
+}
 section {
     display: block;
     padding-bottom: 4rem;
@@ -43,17 +139,21 @@ section {
 }
 
 .card {
+
     display: block;
     width: 30%;
     float: left;
     margin: 8px;
-}
+} 
+/*
 li:hover {
     background-color: #5c2130 ;
     color: #f0f0f0;
 }
+*/
 h1:hover {
-color: black;
+color:#8c7ae6;
+transition: 0.8s;
 }
 @media (max-width: 420px) {
     .produtos {

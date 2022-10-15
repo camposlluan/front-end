@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro - Logitech</title>
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="stylesheet" href="./style/custom-form.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="color-h1">Cadastro</h1>
+          </div>
+         <div class="col">
+                <div class="containerr">
+                  <button class="btnn btn4 nav-item"><a class="nav-link" href="./index.html">Produtos</a></button>
+                  <button class="btnn btn3 nav-item"><a class="nav-link" href="#midias">Mídias</a></button>
+                  <button class="btnn btn4 nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-10" href="#Sobre">Sobre nos</a></button>
+                </div>
+             </div>
+         </div>
+      </div>
+    </header>
+    <section id="sobre">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <img src="./images/pexels-tom-swinnen-1309766 (1).jpg" alt="imagem exemplo" class="img">
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <img src="./images/pexels-designecologist-1779487.jpg" alt="imagem exemplo" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cadastro">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <h2>Cadastro</h2>
+            <p>Faça seu cadastro para receber nossas promoções em sua conta.</p>
+        </div>
+      </div>
+
+          <form class="form">
+
+            <div class="row">
+              <div class="col">
+            <div class="input-group">
+                <input class=" form-control" type="text" name="nome" placeholder="Digite seu nome" required>
+            </div>
+             </div>
+              <div class="col">
+                  <div class="input-group">
+                  <input class=" form-control" type="text" name="email" placeholder="Digite seu email">
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="endereco" class="col-form-label-sm">Endereço</label>
+                <input type="text" class="form-control" id="endereco" placeholder="Endereço" required>
+              </div>
+                <div class="col">
+                  <label for="bairro col-form-label-sm">Bairro</label>
+                  <input type="text" class="form-control" id="bairro" placeholder="Bairro" style="margin-top: 8px;" required>
+                </div>
+
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="cidade" class="col-form-label-sm">Cidade</label>
+                <input type="text" name="cidade" id="cidade" class="form-control" required>
+              </div>
+              <div class="col">
+                <label for="Estado" class="col-form-label-sm">Estado</label>
+                <select name="estado" id="estado" class="form-control">
+                  <option value="">Selecione o estado</option>
+                  <option value="sp">Acre (AC)</option>
+                  <option value="al">Alagoas (AL)</option>
+                  <option value="ap">Amapá (AP)</option>
+                  <option value="am">Amazonas (AM)</option>
+                  <option value="ba">Bahia (BA)</option>
+                  <option value="ce">Ceará (CE)</option>
+                  <option value="df">Distrito Federal (DF)</option>
+                  <option value="go">Goiás (GO)</option>
+                  <option value="ma">Maranhão (MA)</option>
+                  <option value="mt">Mato Grosso (MT)</option>
+                  <option value="ms">Mato Grosso do Sul (MS)</option>
+                  <option value="mg">Minas Gerais (MG)</option>
+                  <option value="pa">Pará (PA)</option>
+                  <option value="es">Espirito Santo (ES)</option>
+                  <option value="pb">Paraíba (PB)</option>
+                  <option value="pr">Paraná (PR)</option>
+                  <option value="pe">Pernambuco (PE)</option>
+                  <option value="pi">Piauí (PI)</option>
+                  <option value="rj">Rio de Janeiro (RJ)</option>
+                  <option value="rn">Rio Grande do Norte (RN)</option>
+                  <option value="rs">Rio Grande do Sul (RS)</option>
+                  <option value="ro">Rondônia (RO)</option>
+                  <option value="rr">Roraima (RR)</option>
+                  <option value="sc">Santa Catarina (SC)</option>
+                  <option value="sp">São Paulo (SP)</option>
+                  <option value="se">Sergipe (SE)</option>
+                  <option value="to">Tocantins (TO)</option>
+                </select>
+              </div>
+              <div class="col">
+                <label for="cep" class="col-form-label-sm">CEP</label>
+                <input type="text" name="cep" id="cep" class="form-control" required>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="input-group">
+                  <label for="info" class="col-form-label-sm">Informações</label>
+                  <textarea class=" form-control" name="informacoes" id="info" rows="5"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="form-check">
+                  <input type="checkbox" name="promocionais" id="promocionais">
+                  <label for="promocionais" class="form-check-label">Aceito receber mensagens promocionais</label>
+                </div>
+              </div>
+            </div>
+
+          <button type="submit" class="btn btn-lg btn-success">Realizar cadastro</button>
+
+          </form>
+
+          <p><a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a>
+          Para receber mais novidades</p>
+
+    </div> <!-- end .container -->
+
+    <footer>
+      <div class="container" id="midias">
+        <div class="row">
+          <div class="col">
+            <div class="card center"> 
+              <div class="card-body">
+            <h5 class="to-footer">Siga nossas mídias sociais para conhecer mais nossos trabalhos</h5>
+            <div class="radius">
+            <a href="https://www.facebook.com/luan.baptbapt/#facebook"><img class="icon-svg" src="./bootstrap/fontawesome/svgs/brands/facebook-f.svg"></a>
+            </div>
+            <div class="svg">
+              <a href="https://www.instagram.com/camposlluan/#instagram"><img class="insta-svg" src="./bootstrap/fontawesome/svgs/brands/instagram.svg"></a>
+            </div>
+            <div class="svg"><a href="https://github.com/camposlluan#github"><img class="insta-svg" src="./bootstrap/fontawesome/svgs/brands/github.svg"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+
+<div class="modal fade box col-md-6 col-sm-12" id="modal-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Inscrever-me na lista de promoções</h5>
+        <button class="btn btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>Preencha os campos para receber novidades e promoções</h6>
+        
+          <form class="form-inline">
+            <div class="row">
+            <div class="form-group col-4">
+              <input type="text" class="form-control form-control-sm mb-2" name="nome" placeholder="nome" required>
+            </div>
+            <div class="form-group col-4">
+              <input type="text" class="form-control form-control-sm mb-2" name="e-mail" placeholder="e-mail" required>
+            </div>
+            <div class="form-group col-4">
+              <button type="submit" class="btn btn-success  btn-sm">Receber novidades</button>
+            </div>
+          </div>
+          </form>
+        </div>
+        
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary mb-2"  data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  </section>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
