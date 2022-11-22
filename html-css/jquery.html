@@ -6,141 +6,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="../vendor/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="../vendor/css/style.css">
     <title>jQuery</title>
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-    <div class="container">
-        <a href="#" class="navbar-brand"><img src="../products/header-logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container" style="margin-top:-35px;">
+            <a href="#" class="navbar-brand" ><img class="header-nav" src="../products/header-store.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto" style="margin-top: 70px;">
                 <li class="nav-item active">
                     <a href="jquery.html" class="nav-link">home</a>
-                    <span class="sr-only">(current)</span>
+                    <span class="sr-only fade">(current)</span>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
             </ul>
         </div>
-    </div>
-</nav>
-<div class="banner">
-    <div class="container">
+    </nav>
+    <div class="container shop-container as-1-container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="caption">
-                    <h2>Ecommerce HTML Template</h2>
-                    <div class="line-dec"></div>
-                    <p>HTML Template can be converted into your desired CMS theme. </p>
+            <div class="column large-8  shop-header">
+                <div class="sub-head">
+                    <div class="caption ">
+                        <h1 class="shop-header-h1">Store.</h1>
+                        <p class="shop-subheader">The best way to buy the products you love.</p>
+                        <div class="line-dec"></div>
+                        <p></p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<div id="featured" class="featured-items">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-heading">
-                    <div class="line-dec"></div>
-                    <h1>Destaques</h1>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="owl-carousel owl-theme">
-                    <div class="featured-item">
-                        <img src="../products/product-7.webp" alt="Item 1">
-                        <h4>Produto 1</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
+            <div class="row chat-section">
+                <div class="rf-shop-chat">
+                    <div class="rf-shop-chat-section">
+                        <div class="rf-shop-chaticon-container" style="padding-right: 15px"><img class="generic-image" alt="" src="../products/pexels-andrea-piacquadio-774909.jpg"></div>
+                        <div class="rf-shop-chat-container">
+                            <div class="rf-shop-chat-title">Need shopping help?</div>
+                            <div class="rf-shop-chat-content">
+                                <a href="#" target="_blank">Ask a Specialist</a></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="featured-item">
-                        <img src="../products/product-8.webp" alt="Item 2">
-                        <h4>Produto 2</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
-                    </div>
-                    <div class="featured-item">
-                        <img src="../products/product-9.webp" alt="Item 3">
-                        <h4>Produto 3</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
-                    </div>
-                    <div class="featured-item">
-                        <img src="../products/product-4.jpg" alt="Item 4">
-                        <h4>Produto 4</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
-                    </div>
-                    <div class="featured-item">
-                        <img src="../products/product-5.jpg" alt="Item 5">
-                        <h4>Produto 5</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
-                    </div>
-                    <div class="featured-item">
-                        <img src="../products/product-6.jpg" alt="Item 6">
-                        <h4>Produto 6</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
-                    </div>
-                    <div class="featured-item">
-                        <img src="../products/product-1.webp" alt="Item 7">
-                        <h4>Produto 7</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
-                    </div>
-                    <div class="featured-item">
-                        <img src="../products/product-2.webp" alt="Item 8">
-                        <h4>Produto 8</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
-                    </div>
-                    <div class="featured-item">
-                        <img src="../products/product-3.webp" alt="Item 9">
-                        <h4>Produto 9</h4>
-                        <h6>R$ 20,00</h6>
-                        <a href="single-product.html" class="btn">
-                            Comprar
-                        </a>
+                    <div class="rs-shop-neareststore">
+                        <div><img class="generic-image" src="../vendor/fonts/star-regular.svg"></div>
+                        <div class="rs-shop-neareststore-container">
+                            <div  style="padding-left: 15x" class="rs-shop-neareststore-title">Visit an our store</div>
+                            <div class="rs-shop-neareststore-content">
+                                <a href="#" target="_blank">Find one near you <img class="arrow" src="../vendor/fonts/arrow-right-solid.svg"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<style>
-    img {
-        width: 260px;
-        height: 250px;
-    }
-</style>
-
-<script src="../vendor/jquery/jquery-3.6.1.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="../vendor/owl/js/owl-js"></script>
-<script src="../javascript/costum.js"></script>
-</body>
-</html>
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2>Featured of the week.</h2>
+                        <div class="line-dec"></div>
+                        <div class="responsive">
+                            <p><img class="banner-img" src="../products/pexels-karolina-grabowska-5632386.jpg"></p>
+                        </div>
+                        <div class="responsive">
+                            <p><img class="banner-img" src="../products/pexels-karolina-grabowska-5632386.jpg"></p>
+                        </div>
+                        <div class="responsive">
+                            <p><img class="banner-img" src="../products/pexels-karolina-grabowska-5632386.jpg"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="featured" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1 style="font-size:30px">Recent items.</h1>
+                        <p class="featured-owl">Take a look at what's new right now.</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-7.webp" alt="Item 1">
+                            <h4>Product 1</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-8.webp" alt="Item 2">
+                            <h4>Product 2</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-9.webp" alt="Item 3">
+                            <h4>Product 3</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-4.jpg" alt="Item 4">
+                            <h4>Product 4</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-5.jpg" alt="Item 5">
+                            <h4>Product 5</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-6.jpg" alt="Item 6">
+                            <h4>Product 6</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-1.webp" alt="Item 7">
+                            <h4>Product 7</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-2.webp" alt="Item 8">
+                            <h4>Product 8</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img class="products" src="../products/product-3.webp" alt="Item 9">
+                            <h4>Product 9</h4>
+                            <h6> $20,00</h6>
+                            <a href="single-product.html" class="btn">
+                                buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="assets/images/header-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">How It Works ?</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i><img class="imgs-svg" src="../vendor/fonts/facebook.svg"></i></a></li>
+                            <li><a href="#"><i><img class="imgs-svg" src="../vendor/fonts/twitter.svg"></i></a></li>
+                            <li><a href="#"><i><img class="imgs-svg" src="../vendor/fonts/linkedin.svg"></i></a></li>
+                            <li><a href="#"><i><img class="imgs-svg" src="../vendor/fonts/rss-solid.svg"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2022 MoonStore. All rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="../vendor/jquery/jquery-3.6.1.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../vendor/owl/js/owl-js"></script>
+        <script src="../javascript/costum.js"></script>
+    </body>
+    </html>
