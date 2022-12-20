@@ -392,6 +392,86 @@ a {
 	border: none;
 }
 
+/* Email */
+
+
+.line-dec1 {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+}
+.email-back {
+	background-color: #3a8bcd;
+	width: 100%;
+	height: 100%;
+}
+.text-head {
+	color: #fff;
+	font-weight: 600;
+	padding-top: 20px;
+}
+.insert {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 40px;
+}
+.main-content {
+	padding: 150px;
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.form-input {
+	color: #fff !important;
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid #dddce2;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    transition: border-color .1s ease-in-out;
+    background: 0 0;
+	border-radius: 5px;
+}
+input::placeholder {
+	color: #fff;
+}
+#email {
+	position: relative;
+}
+.button {
+	position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
+    text-align: center;
+    background-color: transparent;
+    letter-spacing: .2em;
+    font-family: var(--heading-font-family);
+    font-weight: var(--heading-font-weight);
+    font-style: var(--heading-font-style);
+    transition: color .45s cubic-bezier(.785, .135, .15, .86), border .45s cubic-bezier(.785, .135, .15, .86);
+    z-index: 1;
+    -webkit-tap-highlight-color: initial;
+}
+
+.input-primary {
+	color: #fff;
+}
+.button-primary {
+	color:#3a8bcd;
+	background-color: #fff;
+	border: 1px solid #dddce2;
+	width: 100%;
+	height: 45px;
+	border-radius: 5px;
+}
 
 /* Footer Style */
 .footer {

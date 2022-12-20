@@ -33,6 +33,9 @@ $(document).ready(function(){
    // $('.featured-item:first h4').fadeOut()
    // $('.featured-item:first h4').css('color','#f00')
 
+   /*
+   * Funcionamentos do callback
+   */
 
     $('.featured-item h4').dblclick( function(){
         $(this).css({
@@ -41,3 +44,59 @@ $(document).ready(function(){
             'font-weight':'100'
         })
     });
+
+    $('.featured-item:nth(1)')
+        .hide(500, function(){
+            // este e o callback
+            console.log( $(this).find('h4').text() + 'esgotado')
+        })
+        .show(500, function(){
+            console.log( $(this).find('h4').text() + 'em estoque')
+        });
+
+/*
+* Animations
+*/
+const duracao = 1000 //equivalente a 1 segundo
+
+$('.featured-item:nth(0)')
+    .hide( duracao)
+    .show(duracao)
+    .fadeOut(duracao)
+    .fadeIn(duracao)
+    .toggle(duracao)
+    .toggle(duracao)
+
+$('#form-submit').on('click' , function(e){
+
+    e.preventDefault()
+
+    if( $('#email').val() != ''){
+        $('#email').animate({
+            opacity: "toggle",
+            top: "-50"
+        }, 500, function(){
+            console.log($(this).val())
+        })
+    }
+
+    
+    /*
+    * listeners events nav-modal-open
+    */
+   
+   $('.nav-modal-open').on('click', function(e){
+       
+       e.preventDefault();
+       
+       let elem = $(this).attr('rel')
+       
+       $('.modal-body').html($('#' +elem).html())
+
+       let myModal =  new bootstrap.Modal($('#modalId'))
+
+       myModal.show()
+       
+    });
+    
+});

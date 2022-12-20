@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../vendor/owl/css/owl.css">
     <link rel="stylesheet" href="../vendor/fontawesome/fontawesome.css">
     <link rel="stylesheet" href="../vendor/css/style.css">
-    <title>jQuery</title>
+    <title>MoonStore</title>
 </head>
 <body>
     
@@ -25,9 +25,9 @@
                     <a href="jquery.html" class="nav-link">home</a>
                     <span class="sr-only fade">(current)</span>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#about.html" class="nav-link nav-modal-open" rel="about">About us</a></li>
+                <li class="nav-item"><a href="#contact.html" class="nav-link nav-modal-open" rel="contact">Contact us</a></li>
             </ul>
         </div>
     </nav>
@@ -89,6 +89,7 @@
         </div>
     </div>
     <div id="featured" class="featured-items">
+        <div id="products"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -177,12 +178,37 @@
             </div>
         </div>
     </div>
+    <div class="email-back">
+        <div class="col-md-8 offset-md-2">
+            <div class="main-content">
+                <div class="line-dec1"></div>
+                <h1 class="text-head">Get all promotions</h1>
+                <p class="insert">Insert your email address below to receive our coupons</p>
+                <div class="container">
+                    <form id="subscribe" class="form" action method="get">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <fieldset>
+                                    <input name="email" type="form-control" id="email" class="form-input input-primary" placeholder="Insert your email address...">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-5">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="button button-primary">Subscribe</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="logo">
-                        <img src="assets/images/header-logo.png" alt="">
+                        <img src="../products/header-store.png" alt="" style="width: 150px; height: 150px;">
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -214,11 +240,55 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2022 MoonStore. All rights reserved.
+                        <p>Copyright &copy; 2022 MoonStore. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
+          Launch
+        </button>
+        
+        <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="contact" class="">
+
+            <form action="" class="form">
+
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Name / Nickname" aria-describedby="helpName">
+                  <small id="helpName" class="text-muted">
+                    Checkup your name / nickname
+                  </small>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div id="about" class="visually-hidden">
+
         </div>
         
         <script src="../vendor/jquery/jquery-3.6.1.min.js"></script>
